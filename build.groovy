@@ -19,7 +19,7 @@ pipeline {
         stage("build code"){
             steps{
                 println "go build"
-                sh "go build main.go"
+                sh "go build "
                 
             }
         }
